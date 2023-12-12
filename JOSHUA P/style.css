@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    scroll-behavior: smooth;
+    height: 1000vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 50;
+    display: flex;
+    margin: auto;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 150px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -0%;
+}
+
+ul{
+    margin-top: -4%;
+}  
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 50px 100px;
+    transition: .10s ease;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -10%;
+    transition: .10s ease;
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -10%;
+    transition: .10s ease;
+
+ }
+
+ ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    margin-top: 4%;
+    padding: 25px 30px;
+}
+
+.info span{
+    color: blue;
+}
+
+.info a{
+    text-decoration: none;
+    color: whit;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: relative;
+    margin-top: 4.5rem;
+    height: 600px;
+    right: 60px;
+    left: 40px;
+    transform: transition(-50%);
+    bottom: 0;
+
+}
+.div > image .boy:hover{
+    left: 55%;
+    right: 3%;
+    border-radius: 4px;
+    opacity: 2%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+
+}
+#ABOUT {
+    text-align: left;
+    padding: 2.5rem;
+}
+
+ul li a:hover{
+   color: rgb(230,104,59);
+
+}#ABOUT h1{
+   margin-top: 25px;
+    color: black;
+    font-style: 0;
+    padding-top: 150px ;
+
+}
+#ABOUT h2{
+    color: black;
+    text-align: justify;
+    
+}
+
+.ABOUT > div
+
+{
+
+    display: flex;
+    /*margin-top: 100px;
+    /* width: 90%; */
+    color: black;
+}
+
+.name{
+    padding: 10px;
+}
+.name h2{
+    font-size: 1.5rem;
+}
+.name p{
+    font-size: 2rem;
+}
+
+.section{
+height: 500px;
+}
+
+#FLEX{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    /* height: 2000px; */
+    
+}
+#FLEX h1{
+    margin: 60px;
+
+}
+.FLEX{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.FLEX img{
+    max-width: 25vw;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul li a:hover{
+   color: rgb(230,104,59);
+}
